@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome ToDo List</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="todo-container">
+    <div class="box">
+      <h1>My To do List</h1>
+      <div class="todo-input">
+        <input type="text" id="todoInput" placeholder="What do you need to do today?">
+        <button id="addButton">Add</button>
+      </div>
+      <ul id="todoList"></ul>
+      <div class="filters">
+        <button id="allButton" class="filter active">All</button>
+        <button id="activeButton" class="filter">Active</button>
+        <button id="completedButton" class="filter">Completed</button>
+      </div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
